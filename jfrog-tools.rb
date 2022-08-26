@@ -2,11 +2,9 @@ class JFrogTools < Formula
   desc "jfrog tools"
   homepage "https://github.com/tsuyo/jfrog-tools"
   url "https://github.com/tsuyo/homebrew-tap/raw/master/archive/jfrog-tools-0.0.1.tar.gz"
-  sha256 "0a3385c676d1b3518cce5c2aacd8ef1f383cf8624ff9559b649fd487565ce6d8"
+  sha256 "11994e484a8906fc8686548de9f62eca5ba05255ddb0cc47fba02874d67cc080"
   version "0.0.1"
   license "MIT"
-
-  bottle :unneeded
 
   def install
     bin.install "jf-create-proj"
