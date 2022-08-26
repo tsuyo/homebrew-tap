@@ -1,8 +1,8 @@
-class JFrogTools < Formula
+class JfrogTools < Formula
   desc "jfrog tools"
   homepage "https://github.com/tsuyo/jfrog-tools"
   url "https://github.com/tsuyo/homebrew-tap/raw/master/archive/jfrog-tools-0.0.1.tar.gz"
-  sha256 "11994e484a8906fc8686548de9f62eca5ba05255ddb0cc47fba02874d67cc080"
+  sha256 "c911260550a4e88786e2509eaf25fc11015484627fe3baeb5bc096016659aa54"
   version "0.0.1"
   license "MIT"
 
