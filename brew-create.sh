@@ -29,7 +29,7 @@ if [ -z "${url}" ] || [ -z "${template}" ]; then
   usage
 fi
 
-sha256=$(curl -s $url | shasum -a 256 | awk '{printf $1}')
+sha256=$(curl -sL $url | shasum -a 256 | awk '{printf $1}')
 
 cat ${template} \
 | sed "s#\${URL}#${url}#g" \
